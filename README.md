@@ -40,6 +40,9 @@ Every contribution matters. You can:
 3. Suggest an improvement or report a catalog issue.
 4. Help review, test, document, or maintain an existing asset.
 
+New to contributing? Share the step-by-step
+[Contributor Guide](docs/FSI-Toolbox-Contributor-Guide.docx) with colleagues.
+
 Catalog entries are validated automatically on every pull request.
 
 ## Principles
