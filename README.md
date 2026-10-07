@@ -20,6 +20,9 @@ The catalog is intentionally lightweight: assets remain in their existing
 repositories while this repository provides a central discovery and
 contribution experience.
 
+Microsoft Fabric assets can also be browsed by workload in the
+[`Fabric`](Fabric/README.md) folder.
+
 | Category | Examples |
 | --- | --- |
 | Accelerators | Deployable solutions and engagement starters |
@@ -58,4 +61,3 @@ for reporting security concerns.
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
-
