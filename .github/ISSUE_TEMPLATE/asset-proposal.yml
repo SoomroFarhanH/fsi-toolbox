@@ -1,0 +1,68 @@
+name: Propose an asset
+description: Suggest an accelerator, tool, sample, architecture, or best practice.
+title: "[Asset]: "
+labels:
+  - asset-proposal
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for helping grow the FSI Toolbox. Do not include confidential
+        information, credentials, customer data, or personal data.
+  - type: input
+    id: name
+    attributes:
+      label: Asset name
+    validations:
+      required: true
+  - type: input
+    id: repository
+    attributes:
+      label: Repository URL
+      placeholder: https://github.com/owner/repository
+    validations:
+      required: true
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      options:
+        - Accelerator
+        - Reference architecture
+        - Sample
+        - Tool
+        - Best practice
+    validations:
+      required: true
+  - type: textarea
+    id: value
+    attributes:
+      label: FSI scenario and value
+      description: Describe the customer scenario, intended users, and outcome.
+    validations:
+      required: true
+  - type: textarea
+    id: technologies
+    attributes:
+      label: Technologies
+    validations:
+      required: true
+  - type: input
+    id: maintainers
+    attributes:
+      label: Maintainers
+      description: Provide one or more GitHub handles.
+    validations:
+      required: true
+  - type: checkboxes
+    id: readiness
+    attributes:
+      label: Readiness
+      options:
+        - label: The asset has documentation and an appropriate license.
+          required: true
+        - label: The repository contains no secrets or customer data.
+          required: true
+        - label: I have authority to propose this asset for inclusion.
+          required: true
+

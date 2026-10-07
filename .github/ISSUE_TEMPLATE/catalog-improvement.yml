@@ -1,0 +1,19 @@
+name: Catalog improvement
+description: Report inaccurate metadata or suggest a toolbox improvement.
+title: "[Catalog]: "
+labels:
+  - catalog
+body:
+  - type: textarea
+    id: current
+    attributes:
+      label: Current behavior or information
+    validations:
+      required: true
+  - type: textarea
+    id: proposed
+    attributes:
+      label: Proposed improvement
+    validations:
+      required: true
+
